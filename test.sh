@@ -1,3 +1,4 @@
+gcloud config set compute/zone $ZONE
 gcloud services enable container.googleapis.com \
     cloudbuild.googleapis.com \
     sourcerepo.googleapis.com
